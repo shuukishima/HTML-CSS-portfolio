@@ -1,0 +1,341 @@
+*{
+    padding:none;
+    margin:none;
+}
+body {
+    background-color:#f5f5dd;
+    margin: 0 auto;
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+header {
+    font-size:14px;
+    background-color:#ffffff;
+    padding-top:10px;
+    width:100%;
+    margin:0 auto;
+    min-width:960px;
+    list-style:none;
+    border-bottom:1px solid #cccccc;
+}
+.header_main {
+    width:960px;
+    margin:0 auto;
+}
+.header_logo {
+    margin-bottom:5px;
+    float:left;
+}
+form {
+    float:right;
+    padding:1em 0 0 0;
+    vertical-align: middle;
+}
+input {
+    font-size:10px;
+}
+#search_code {
+    padding:4px 30px 4px 4px;
+}
+input submit {
+    display:block;
+}
+.header_logo img {
+    margin: 0 auto;
+    vertical-align:top;
+}
+.header_logo p {
+    color:#664433;
+    margin: 0 auto;
+}
+#header_nav {
+    font-size:14px;
+    display:block;
+    text-align:center;
+    clear:left;
+    position:relative;
+    z-index:1;
+}
+#header_nav ul {
+    margin:0;
+    padding:0;
+}
+#header_nav li {
+    list-style:none;
+    display:inline-block;
+    width:15%;
+    min-width:180px;
+    font-size:16px;
+    margin:0 5px 2px 1px;
+}
+#header_nav li:not(:last-child) {
+    border-right:1px solid #cccccc;
+}
+#header_nav a {
+    text-decoration:none;
+    color:#664433;
+    display:block;
+    width:100%;
+    height:100%;
+}
+/*ここからメイン*/
+.contents {
+    width:960px;
+    display:flex;
+}
+.resipi_gloop {
+    flex:4;
+}
+.newRecipes {
+    flex:0.8;
+}
+.osusume_resipi {
+    flex:2;
+}
+.aside_gloop {
+    flex:0.8;
+}
+main {
+    width:960px;
+    margin:0 auto;
+}
+ul {
+    list-style:none;
+    padding:0;
+}
+nav, ul, li a {
+    margin:0;
+    text-decoration:none;
+    color:#000000;
+}
+a {
+    display:block;
+    text-decoration:none;
+}
+h3 {
+    border-radius:50px 50px ;
+    color:#ffffff;
+    font-size:20px;
+    background-color:#99bb22;
+    padding:3px;
+    margin:5px 5px 5px 5px;
+}
+.mainView img {
+    background-size:cover;
+    display:block;
+    width:100%;
+}
+.dish {
+    margin:0;
+    background-image:url(images/icon/dish.png);
+}
+.dish img {
+    padding:8px 10px 0 20px
+}
+.image_arrow img {
+    margin:5px;
+}
+.image_arrow p {
+    display:inline-block;
+    text-align:right;
+    text-decoration:none;
+}
+#resipi1 {
+    background-color:#ffffff;
+    width:190px;
+    margin:15px 12px 15px 0;
+    padding-top:5px;
+    padding-bottom:10px;
+}
+#resipi1 li:not(:last-child) {
+    border-bottom:1px dashed #cccccc;
+}
+#resipi1 li {
+    padding:5px 3px 7px 3px;
+    margin:0 5px 0 5px;
+}
+#resipi1 li img {
+    padding:5px 5px 0 0px;
+    display:block;
+    float:left;
+}
+#resipi2 {
+    background-color:#ffffff;
+    width:190px;
+    margin-top:15px;
+    margin-right:9px;
+    padding-top:5px;
+    padding-bottom:10px;
+}
+#resipi2 li:not(:last-child) {
+    border-bottom:1px dashed #cccccc;
+}
+#resipi2 li {
+    padding:5px 3px 7px 3px;
+    margin:5px 5px 0 5px;
+}
+#resipi2 h3 {
+    background-color:#99bb22;
+    margin:5px;
+    padding:3px;
+}
+#resipi2 li img {
+    padding:5px 5px 0 0px;
+    display:block;
+    float:left;
+}
+#newRecipes {
+    background-color:#ffffff;
+    display:flex;
+    width:592px;
+    display:inline-block;
+    margin-top:15px;
+    padding-top:5px;
+}
+#newRecipes h3 {
+    background-color:#99bb22;
+    margin:5px 5px 13px 5px;
+    padding:3px;
+}
+#newRecipes h3 img {
+    display:block;
+    float:left;
+}
+.newRecipes_image {
+    background-color:#ffffff;
+    padding:0 15px 15px 16px;
+}
+.newRecipes_image span  {
+    display:flex;
+    justify-content:center;
+}
+
+.newRecipes_image ul {
+    list-style:none;
+    display:flex;
+    padding:0 10px 0 13px;
+}
+.newRecipes_image li {
+    font-size:10px;
+    vertical-align:top;
+    text-align:center;
+}
+.newRecipes_image li:not(:last-child) {
+    margin-right:30px;
+}
+.dish img {
+    float:left;
+    padding:10px 8px 0 16px;
+}
+.topics1 {
+    background-color:#ffffff;
+    font-size:14px;
+    padding:5px 0 30px 0;
+    margin-top:15px;
+}
+.topics1 h3 {
+    background-color:#99bb22;
+    padding:3px;
+    margin:5px 5px 15px 5px;
+}
+.image_topics img {
+    margin-left:16px;
+}
+.topics_text p{
+    
+    margin:0 15px 10px 15px;
+}
+.topics_text {
+    margin:0 13px;
+    line-height:1.2;
+}
+.topics_text1 {
+    line-height:1.2;
+}
+.image_arrow {
+    text-align:right;
+    height:25px;
+}
+.image_arrow img {
+    float:left;
+    margin:3px 5px 5px 5px;
+}
+.image_arrow a {
+    color:#fc8833;
+    vertical-align:middle;
+    padding-right:20px;
+    text-decoration:none;
+}
+.minaosu_resipi {
+    background-color:#99bb22;
+    padding:3px 3px 5px 3px;
+}
+#topics_imagetext {
+    display:flex;
+}
+.topics2 {
+    background-color:#ffffff;
+    font-size:14px;
+    width:100%;
+    padding:5px 0 30px 0;
+    margin:15px 0 15px 0;
+}
+.topics2 img {
+    float:left;
+}
+.images_pushRecipes {
+    margin:10px 10px 10px 10px;
+}
+.images_pushRecipes img {
+    margin-left:5px;
+}
+.kisetu_gloop1 {
+    margin:15px 51px 15px 260px;
+}
+.kisetu_gloop2 {
+    margin:15px 51px 15px 260px;
+}
+.osusume_resipi img {
+    float:left;
+}
+h4 {
+    color:#664433;
+    margin:none;
+}
+.right1 {
+    float:right;
+    margin:15px 0 10px 12px;
+}
+.right2 {
+    margin:15px 0 10px 12px; 
+    clear:both;
+}
+/*以下footer*/
+footer {
+    font-size:12px;
+    background-color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    width:100%;
+    min-width:960px;
+    list-style:none;
+}
+footer ul {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+}
+footer a {
+    display:block;
+    width:100%;
+    height:100%;
+    margin:0 15px 0 15px;
+}
+footer li:not(:last-child) {
+    border-right:1px solid #cccccc;
+}
+.FooterContainer-CodeCamp {
+    color:#cccccc;
+    font-size:12px;
+    text-align:center;
+}
